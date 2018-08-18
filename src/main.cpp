@@ -11,7 +11,7 @@ int main() {
     int input[] = {4, 5, 6, 2, 1, -1, 77, 88, 23, 45};
     
     len = sizeof(input)/ sizeof(input[0]);
-    MyContainer arr(len);
+    MyArray arr(len);
     
     for(int i = 0; i < len; i++) {
         //cout<<input[i]<<"\n";
