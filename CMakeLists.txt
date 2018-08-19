@@ -1,5 +1,5 @@
 #specify the minimum version for CMake
-cmake_minimum_required(VERSION 3.0)
+cmake_minimum_required(VERSION 3.1)
 
 macro(use_cxx11)
 if (CMAKE_VERSION VERSION_LESS "3.1")

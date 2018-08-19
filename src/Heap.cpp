@@ -1,7 +1,7 @@
 #include "Heap.h"
 #include <iostream>
 #include <string>
-
+#if 0
 #ifdef DEBUG_PRINT
 #define PRINTF(X) printf("%s\t%s\n", __func__, X);
 #else
@@ -133,3 +133,4 @@ int MyArray::GetAt(int index) {
     PRINTF((std::to_string(heap_container[index])).c_str());
     return heap_container[index];
 }
+#endif
