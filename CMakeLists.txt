@@ -28,6 +28,8 @@ include_directories("${PROJECT_SOURCE_DIR}/inc")
 set(SRC_FILE ${SRC_FILE}
         ${PROJECT_SOURCE_DIR}/src/Heap.cpp
         ${PROJECT_SOURCE_DIR}/src/HeapTest.cpp
+        ${PROJECT_SOURCE_DIR}/src/LRUCache.cpp
+        ${PROJECT_SOURCE_DIR}/src/LRUCacheTest.cpp
     )
 add_library(mySTL SHARED ${SRC_FILE})
 

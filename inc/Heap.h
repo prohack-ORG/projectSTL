@@ -5,7 +5,6 @@
 #include <iostream>
 #include <string>
 #include "Logging.h"
-//#define DEBUG_PRINT
 
 #define MIN_HEAP 0
 #define MAX_HEAP 1
