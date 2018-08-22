@@ -25,8 +25,11 @@ set(LIBRARY_OUTPUT_PATH ${CMAKE_LIBRARY_PATH})
 
 # The following folder will be included
 include_directories("${PROJECT_SOURCE_DIR}/inc")
-set(SRC_FILE ${SRC_FILE} ${PROJECT_SOURCE_DIR}/src/Heap.cpp)  
-add_library(mySTL SHARED ${SRC_FILE})#${PROJECT_SOURCE_DIR}/src/Heap.cpp)
+set(SRC_FILE ${SRC_FILE}
+        ${PROJECT_SOURCE_DIR}/src/Heap.cpp
+        ${PROJECT_SOURCE_DIR}/src/HeapTest.cpp
+    )
+add_library(mySTL SHARED ${SRC_FILE})
 
 add_executable(testSTL ${PROJECT_SOURCE_DIR}/src/main.cpp)
 

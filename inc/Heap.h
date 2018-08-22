@@ -4,14 +4,8 @@
 #include <vector>
 #include <iostream>
 #include <string>
-
+#include "Logging.h"
 //#define DEBUG_PRINT
-#ifdef DEBUG_PRINT
-#define PRINTF(X) printf("%s\t%s\n", __func__, X);
-#else
-#define PRINTF(X)
-#endif
-#define TO_STR(X) std::to_string(X)
 
 #define MIN_HEAP 0
 #define MAX_HEAP 1
